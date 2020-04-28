@@ -53,7 +53,7 @@ const Dashboard: React.FC = () => {
       setNewRepo('');
       setInputError('');
     } catch (err) {
-      setInputError('Erro na busca por esse repositório');
+      setInputError('Erro na busca por esse repositório, tente algo como "lncitador/GithubExplorer"');
     }
   }
 
